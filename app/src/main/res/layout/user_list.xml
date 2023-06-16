@@ -24,6 +24,7 @@
             android:layout_marginStart="12dp"
             android:text="Nama : Raynaldi Zulfikar"
             />
+
         <TextView
             android:id="@+id/txtNim"
             android:layout_below="@id/txtNama"
@@ -46,5 +47,27 @@
             android:layout_marginStart="12dp"
             android:text="Telepon : 082223018700"
             />
+
+        <ImageButton
+            android:id="@+id/btnEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_edit_24"
+            android:layout_alignParentEnd="true"
+            android:backgroundTint="#0095F6"
+
+            />
+
+        <ImageButton
+            android:id="@+id/btnDelete"
+            android:layout_below="@id/btnEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_delete_24"
+            android:layout_alignParentEnd="true"
+            android:backgroundTint="#FF0000"
+
+            />
+
     </RelativeLayout>
 </androidx.cardview.widget.CardView>
